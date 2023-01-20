@@ -225,7 +225,7 @@ const validaEdad = (expresion, input, campo) => {
 function validateSelect() {
   var select = document.getElementById("ciudad");
   if (select.value == "") {
-    alert("Por favor seleccione una opción válida.");
+    alert("Por favor seleccione una Provincia.");
     select.style.border = "1px solid red";
     return false;
   } else {
@@ -240,7 +240,7 @@ function validateAge() {
     age.style.border = "1px solid green";
     return true;
   } else {
-    alert("debes sder maypor de edad");
+    alert("Debes ser mayor de edad.");
     age.style.border = "1px solid red";
   }
 }
